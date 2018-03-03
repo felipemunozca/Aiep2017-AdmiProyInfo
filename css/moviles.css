@@ -1,0 +1,46 @@
+/****************************************************************
+**************** MAQUETACION TAMAÑO PARA MOVILES ****************
+****************************************************************/
+
+
+/*******************************
+***** SMARTHPHONE GAMA ALTA *****
+*******************************/
+
+@media (max-width: 768px) {
+	#foto{ 
+		width: 220px; 
+	}
+
+	#cuadro a > h4 {
+		font-size: 23px;
+		font-size: 2.3rem;		
+	}
+
+	#construccion h5 {
+		font-size: 17px;
+		font-size: 1.7rem;
+	}
+
+}
+
+/*******************************
+***** SMARTPHONE GAMA BAJA *****
+*******************************/
+
+@media (max-width : 320px) {
+	#foto{ 
+		width: 180px; 
+	}
+
+	#cuadro a > h4 {
+		font-size: 29px;
+		font-size: 2.9rem;
+	}
+
+	#construccion h5 {
+		font-size: 17px;
+		font-size: 1.7rem;
+	}
+
+}

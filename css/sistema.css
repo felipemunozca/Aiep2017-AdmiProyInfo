@@ -1,0 +1,177 @@
+/**** BOTON SALIR DEL SISTEMA ****/
+/*********************************/
+	#salir-sistema {
+		text-align: center;
+		padding: 10px 10px 10px 10px;
+		background-color: #87B27D;
+		border-radius: 1px;
+	}
+
+/**** Configuracion del Body general ****/
+/****************************************/
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none; /*quitar el punto de la lista cuando cambia a formato movil*/
+	}
+
+	ul li {
+		margin-bottom: 10px;
+	}
+
+/******* PAGINA DE INICIO DE SESION ********/
+/*******************************************/
+	#fondo-oscuro{
+		background-color: #222222;
+	}
+
+	#cuadro-blanco{
+		background-color: #fff;
+		border-color: #000;
+		border-radius: 1px;
+		padding: 10px 15px 10px 15px;
+	}
+	#cuadro-blanco h2{
+		text-align: center;
+	}
+	#cuadro-blanco h3{
+		text-align: center;
+	}
+	#cuadro-blanco h4{
+		text-align: center;
+	}
+	#cuadro-blanco p{
+		text-align: center;
+	}
+
+
+/****** LOGO DEL SISTEMA ******/
+/******************************/
+	#main-logo {
+		width: 100%;
+		height: 80px;
+		padding: 2px 0 0 20px;
+		margin: 0;
+		background-color: #023202;
+	}
+	#main-logo > a {
+		font-size: 20px;
+		font-size: 2rem;
+		font-weight: 600;
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	#main-logo > a > span {
+		display: block;
+		color: #DFFFBF;
+		font-size: 13px;
+		font-size: 1.3rem;
+	}
+
+
+/******** ESTILOS DEL HEADER DEL SISTEMA *********
+*************************************************/
+	#main-header {
+		top: 0;
+		width: 100%;
+		background-color: #555665;
+		z-index: 99;
+		/*padding: 10px 0;*/
+
+	/* Para internet explorer 8*/
+	    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#11000000, endColorstr=#11000000)";
+
+		-moz-box-shadow: 0 1px 5px #999;
+		-webkit-box-shadow: 0 1px 5px #999;
+		box-shadow: 0 1px 5px #999;
+	}
+
+
+/******* PIE DE PAGINA VOLVER *******/
+/************************************/
+	#pie-pagina {
+		text-align: center;
+		padding: 10px 10px 10px 10px;
+		background-color: #116800;
+		border-radius: 1px;
+	}
+
+/***********************************************
+************ BARRA DE NAVEGACION ***************
+***********************************************/
+	#main-menu {
+		margin-top: 10px;
+		float:right;
+	}
+
+	#main-menu a {
+		font-size: 16px;
+		font-size: 1.6rem; 
+		color: #fff;
+	}
+
+	#main-menu a:hover {
+		color: #555665;
+	}
+
+/***************************************************
+********* ESTILOS PARA EL MENU DE MOVILES **********
+***************************************************/
+	#mobile-menu-button {
+		float: right;
+		width: 44px;
+		margin: 20px 0;
+	}
+
+	#mobile-main-menu {
+		display: none;
+	}
+
+	#mobile-main-menu a {
+		display: block;
+		width: 100%;
+		padding: 10px 0;
+		border-top: 1px solid #eee;
+		color: #aaa;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	#mobile-main-menu li {
+		margin: 0;
+	}
+
+	#mobile-main-menu a:hover {
+		color: #fff;
+		text-decoration: none;
+		background-color: #DCD9D9;
+	}
+
+/*****MENU PARA EL NOMBRE DEL SISTEMA*****/
+/*****************************************/
+	#banner-sistema {
+		/*background-color: #000;
+		text-decoration-color: #fff;
+		text-align: center;
+		*/
+	}
+	#banner-sistema label {
+		text-transform: uppercase;
+		color: #fff;
+		border-radius: 10px;
+	}
+	
+	#linea-color {
+		background-color: #FFFFFF;
+		width: 100%;
+		height: 1px;
+	}
+
+	#nombre-usuario h4 {
+		padding: 10px 0px;
+		color: #fff;
+	}
+	#nombre-usuario strong {
+		color: #fff;
+	}
